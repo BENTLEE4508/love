@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Red Roses</title>
+    <style>
+        body {
+            background: url('rose-background.jpg') no-repeat center center/cover;
+            text-align: center;
+            font-family: 'Dancing Script', cursive;
+            color: #ffd9d9; /* Soft romantic pink for contrast */
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+            margin-top: 20px;
+        }
+        .container {
+            margin-top: 50px;
+            background: rgba(0, 0, 0, 0.5); /* Adds a subtle dark overlay */
+            padding: 20px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+        .rose {
+            width: 300px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+            margin: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .rose:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(255, 0, 0, 0.8);
+        }
+        figcaption {
+            font-size: 24px;
+            margin-top: 10px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Love in Every Petal</h1>
+    <div class="container">
+        <figure>
+            <img src="c:\Users\asus\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FCD11DA01E886BC1BE35B19F4D974F4E\WhatsApp Image 2025-02-12 at 19.42.57_1e0ab4f0.jpg" alt="Romantic Red Rose 1" class="rose">
+            <figcaption>A symbol of passion and romance.</figcaption>
+        </figure>
+        <figure>
+            <img src="c:\Users\asus\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\8F97D1D7E02158A83CEB2C14FF5372CD\WhatsApp Image 2025-02-12 at 19.42.58_5a26bb7c.jpg" alt="Romantic Red Rose 2" class="rose">
+            <figcaption>Deep red whispers of love.</figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>
